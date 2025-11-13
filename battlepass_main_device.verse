@@ -18,8 +18,6 @@ using { /Verse.org/Simulation }
 
 CBPModule<public> := module:
 
-    # NOTE(FROZENPAWN): YOU NEED TO FILL THESE TWO ARRAYS
-    # WITH THE TEXTURES TO MATCH YOUR REWARDS.
     FreeRewardTextures<public> : []texture = array
     {
         BPTextures.T_FreeReward_0,
