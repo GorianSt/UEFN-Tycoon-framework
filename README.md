@@ -1,11 +1,14 @@
 # UEFN Tycoon Framework  
-A modular tycoon-game framework built for Unreal Engine for Fortnite (UEFN) to help dev's get on track to build as fast as possible.
+A modular tycoon-game framework for Unreal Engine for Fortnite (UEFN), written in Verse.
+It covers the economy loop, per-player state, a battle pass, daily rewards, gift boxes and
+UI, so you start from working systems instead of a blank project.
+
+**12 Verse device scripts**, ready-made textures and UI assets, Apache-2.0.
 
 ## 🚀 Features
 - Fully structured folder setup for tycoon gameplay: economy logic, GUI, assets.  
 - Device scripts (.verse) for core gameplay: money collection, upgrades, player tracking, etc.  
 - Asset folders: `BPTextures`, `DRTextures`, `GBTextures`, `UI` for organizing visual assets.  
-- License: Apache 2.0 (per the repo).  
 
 ## 📦 Folder Structure
 ```
@@ -13,8 +16,8 @@ A modular tycoon-game framework built for Unreal Engine for Fortnite (UEFN) to h
 /DRTextures           — Daily-reward textures
 /GBTextures           — Gift-box textures
 /UI                   — User interface assets (Permanently shown)
-/devicelist.verse     — Device registry script for regestering all sorts of in-game devices dev might want to modify and use in Assets devce (./tycoon_Assets_device.verse)
-/HitBox_device.verse  — Makes a prop hittable by player to reward him with his currect income per second on each hit
+/Devicelist.verse     — Device registry script for registering all sorts of in-game devices dev might want to modify and use in Assets device (./tycoon_Assets_device.verse)
+/HitBox_device.verse  — Makes a prop hittable by player to reward him with his current income per second on each hit
 /NPC_Killer_device.verse — detects which player kills an NPC to reward him with the players income per second 
 /battlepass_main_device.verse  — A Battlepass which levels up with progress made by the player to boost play time
 /custom_car_device.verse — Planned device to make ingame cars with custom design purchasable by players
@@ -32,8 +35,8 @@ LICENSE               — Apache-2.0
 ## 🧠 Getting Started
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/KalikHub/UEFN-Tycoon-framework.git
-    ````
+   git clone https://github.com/GorianSt/UEFN-Tycoon-framework.git
+    ```
 or download the .verse files from github and import them manually into UEFN
 
 2. Open the project in UEFN.
